@@ -11,7 +11,7 @@ export class Routes {
   public registerRoutes(fastify: FastifyInstance): void {
     fastify.route({
       method: "GET",
-      url: "/hello",
+      url: "/",
       schema: {
         querystring: {
           name: { type: "string" },
